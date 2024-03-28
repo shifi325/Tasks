@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to left,rgb(235, 69, 152),rgb(230, 107, 126),lightpink);
+    position:relative;
+    top:100px;
+    text-align: center;
+    width: 100vw;
+    
+}
+
+
+.middle{
+    position: relative;
+    left: 5vw;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+
+}
+
+
+fieldset{
+    border: 2px solid rgb(225, 42, 125);
+    border-radius: 20px;
+}
+.button,button,input{
+    font-size: large;
+    border: 2px solid rgb(203, 68, 129);
+    border-radius: 20px;
+    background-color:transparent;
+    text-align: center;
+}
+h1{
+    position: relative;
+    top: -100px;
+    font-size: 70px;
+}
+.TextField{
+    position: absolute;
+    top: 3vh;
+}
+
+legend {
+    font-size: 28.5px;
+    background-color: rgb(225, 42, 125);
+    color: lightpink;
+    position: fixed;
+    direction: rtl;
+    top: 13vh;
+    width: 150px;
+    padding: 4px;
+    border-radius: 15px;
+    text-align: center
+}
+
+/* button{
+    position: relative;
+    left: 30%;
+} */
